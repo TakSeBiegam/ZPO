@@ -1,0 +1,62 @@
+Minimalne wymagania stawiane przed projektem:
+ respansywność,
+ projekt zgodny z podstawowymi standardami web usability, intuicyjność interfejsu, łatwości nawigacji,
+ogólny komfort użytkowania strony,
+ projekt przechodzi testy użyteczności webowej na platformie wybranej i przyjętej wspólnie przez stu-
+dentów,
+ unikalny charakter zorientowany na potrzeby użytkownika, w projekcie nie są wykorzystywane domyślne
+niezmodyfikowane komponenty,
+ dokumentacja i projekt w wesji cyfrowej razem z konfiguracją umożliwiającą uruchomienie projektu.
+Elementy projektu wpływające na ocenę końcową
+Logowanie/rejestracja:
+Min: odporność na sql (sql injection), zapamiętywanie pól przy przeładowaniu strony (np. bo błędnym haśle),
+wygląd w trybie desktopowym ciekawszy niż prostokąt z trybu mobilnego,
+3.0 login, hasło, itp. w sesji,
+4.0 token,
+5.0 logowanie za pomoć co najmniej dwóch portali społecznościowych (przy pierwszym logowaniu, dane
+urzytkownika są uzupełniane w oparciu o informacjeuzyskane z portalu).
+Galeria:
+Min: Trzy strony, jedna gdzie dodaje się zdjęcia do bazy, druga gdzie dodaje się zdjęcia/obiekt z bazy do
+slajdera z opcjami dla administratora, trzecia gdzie jest widoczny slajder dla użytkownika. Zapętlony
+slider z dowolną ilością zdjęć/obiektów (nie tylko wielokrotność 6), wyświetlający np. 1, 2 lub 3 zdję-
+cia na ekranie w zależności od szerokości ekranu grid, wyświetlane zdjęcia cyklicznie zmieniają się o
+jedno niezależnie od szerokości ekranu. Zdjęcie/obiekt są wyświetlana na kartach posiadających opis o
+dowolnej długości. Wielkość kart wyrównuje się automatycznie względem największej,
++0.5 zdjęcia są automatycznie skalowane (zmiana rozdzielczości) przy dodawaniu do bazy (nie chodzi o
+narzędzia z chmury),
++0.5 kolejność zdjęć/kart w slider można modyfikować (usuwanie i dodawanie ostatnienigo to nie modyfikacja
+kolejności),
++0.5 dodawanie i modyfikacja kolejności zdjęć/kart za pomocą myszy (drag and drop),
++0.5 administrator ma zapisanych klika kolejności slajderów/galerii i może wybrać która jest wyświetlana/
+modyfikowana itp.
+Komentarze:
+Min: Administrator/moderator/użytkownik. Posty/produkty przypisane do kategorii. Komentarze podpięte
+do postów/produktów. Administrator przydziela moderatorowi kategorie tematyczną. Moderator two-
+rzy posty i akceptuje posty zgłaszane przez użytkownika. Moderator może komentować i akceptuje
+komentarze użytkowników. Opis postów/produktów można modyfikować edytorem wspierającym znacz-
+niki html. Użytkownik/moderator/administrator posiadają informacje o dotyczących ich zdarzeniach.
+Informacja o takich zdarzeniach jest widoczna (bez użycia okienka alert) bezpośrednio po zalogowaniu.
+Listy informacji posiadają paginację.
+2
++0.5 dodawanie/edycja kategorii i podkategorii, breadcrumbs,
++0.5 użytkownik zgłasza post/produkt moderatorowi i może prowadzić dyskusję z moderatorem (dyskusją
+nie jest rozmowa przechowywana w sesji, tzn. niedostępną po ponownym odwiedzeniu strony),
++0.5 komentarz użytkownika jest widoczny tylko dla tego użytkownika, dopóki nie zostanie zaakceptowany
+przez moderatora. Do tego etapu użytkownik może edytować komentarz. Moderator ma listę komentarzy
+do akceptacji, może akceptować również bezpośrednio na forum.
++0.5 komentarze (nie swoje) można oceniać, co określa rangę/kategorię użytkownika.
+Koszyk:
+Min: Dodawanie produktów do koszyka, złożenie zamówienia, wykorzystanie danych użytkownika z jego pro-
+filu przy adresie wysyłki, podgląd statutu zamówienia i jego modyfikacja przez moderatora/administratora,
++0.5 kumulacja w koszyku, tj. dodanie dwukrotne pozycji do koczyka skutkuje połączeniem tego produktu
+w koszyku z dostosowanym parametrem ilość,
++0.5 informacja o złożeniu zamówienia i oczekiwaniu na płatność wysłana na email,
++1.0 sandbox, informacja o płatności automatycznie zmienia statut zamówienia.
+Kolorystyka:
+Min: Aplikacja posiada min 3 kolory, które określają tonacje całej aplikacji (pozostałe kolory są wyliczane w
+oparciu o te trzy). Weryfikacja ręczną zmianą w pliku css. Cała aplikacja - nie jedna strona z paskiem
++ JavaScript,
++1.0 administrator z profilu modyfikuje 3 kolory (podstawowe) bezpośrednio w pliku css (opcjonalnie w bazie
+z której są pobierane informacje o kolorach),
++1.0 administrator może definiować motywy - grupy trójek kolorów, które użytkownik może wybrać w swoim
+profilu.

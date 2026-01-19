@@ -1,0 +1,35 @@
+Projekt – wytyczne
+Tematyka
+Projekt może być poświęcony księgarni
+Wymagania ogólne
+1. Projekt powinien być realizowany w grupach dwu, trzy-osobowych. Wyjątkowo, za zgodą prowadzącego, może być
+realizowany indywidualnie.
+2. Współpraca na poziomie wymiany kodu źródłowego pomiędzy poszczególnymi członkami zespołów oraz kontroli wersji
+ma być realizowana poprzez użycie jednego z systemów GitHub, GitLub lub podobnego.
+3. Dostęp do repozytorium ma być udostępniony prowadzącemu.
+4. Commity do repozytorium muszą być realizowane przez każdego członka zespołu grupy projektowej.
+Technologie
+1. Projekt może być zrealizowany w dowolnej technologii, ale koniecznie w paradygmacie programowania obiektowego.
+2. W projekcie należy wykorzystać cechy programowania obiektowego: hermetyzację, dziedziczenie i polimorfizm.
+3. Aplikacja może być stacjonarna, webowa, mobilna lub łącząca te technologie.
+4. UWAGA: wykorzystanie języka typowo obiektowego, np. Java, ale w projekcie, który ma jedną klasę lub wiele klas
+luźno powiązanych ze sobą nie będzie spełniało wymagań zaliczenia.
+Dokumentacja
+Dokumentacja powinna zawierać następujące informacje:
+1. przeznaczenie aplikacji
+2. funkcjonalności aplikacji
+3. wymagania systemowe i sprzętowe
+4. sposób instalacji
+5. sposób użycia
+6. wykorzystane narzędzia i biblioteki – koniecznie z podaniem użytych wersji
+7. opis wykorzystania cech programowania obiektowego
+8. inne, według uznania zespołu projektowego
+Dokumentacja może być napisana w pliku README lub w innym formacie (np. .pdf) i powinna być zamieszczona
+w repozytorium projektu.
+Zasady oceniania
+Oceniane będą:
+1. spełnienie wymagań formalnych
+2. funkcjonalności aplikacji
+3. postęp prac poprzez analizę liczby i obszerności commitów do repozytorium (UWAGA: każdy członek zespołu projek-
+towego powinien wykonać co najmniej trzy commity ze swojego konta rozłożone w czasie)
+4. kompletność i jakość dokumentacji
